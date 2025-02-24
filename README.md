@@ -20,3 +20,10 @@
 - Netflix GPT
     - Search Bar
     - Movie Suggestions
+
+
+# commands or configuration 
+- npm install -D tailwindcss@3
+- npx tailwindcss init
+- npm i -D react-router-dom
+- https://stackoverflow.com/questions/76776910/unknown-at-rule-tailwind-cssunknownatrules-tailwind-error removing the tailwind error
