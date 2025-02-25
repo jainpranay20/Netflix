@@ -6,6 +6,7 @@ const Login = () => {
     const [isSignInForm, setIsSignInForm] = useState(true);
     const email = useRef(null);
     const password = useRef(null);
+    const name = useRef(name);
     const [errorMessage, setErrorMessage] = useState(null);
 
     const handleButtonClick = () => {
@@ -36,6 +37,7 @@ const Login = () => {
                     type="name" 
                     placeholder='Name' 
                     className='p-4 my-4 w-full bg-gray-800' 
+                    ref={name}
                 />)}
 
                 <input 
