@@ -7,6 +7,9 @@
 - Sign up Form
 - Form Validation
 - useRef Hook
+- Firebase setup
+- Deploying our app to production
+- Creating signup user in firebase
 
 # Features 
 
@@ -48,3 +51,6 @@
 
 - npm run build
 - firebase deploy
+
+- npm i -D @reduxjs/toolkit
+- npm i react-redux
