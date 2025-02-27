@@ -15,6 +15,10 @@
 - Implemented Sign out
 - Update profile
 - Fetch from TMDB Movies
+- BugFix - If the user is not logged in Redirec/ browse to login page and vice-versa
+- Unsubscribe to the onAuthStateChanged callback function
+- Register TMDB API & create an app & get access token
+- Get Data from TMDB now playing movies list API
 
 # Features 
 
