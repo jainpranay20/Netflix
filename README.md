@@ -19,6 +19,13 @@
 - Unsubscribe to the onAuthStateChanged callback function
 - Register TMDB API & create an app & get access token
 - Get Data from TMDB now playing movies list API
+- Maincontainer
+- Video background
+- Video title
+- Secondary container
+- Movie List * n
+- cards * n
+    
 
 # Features 
 
