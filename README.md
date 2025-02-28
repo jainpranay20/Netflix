@@ -19,9 +19,12 @@
 - Unsubscribe to the onAuthStateChanged callback function
 - Register TMDB API & create an app & get access token
 - Get Data from TMDB now playing movies list API
+- Created custom hooks
+- Created store with movies data
 - Maincontainer
-- Video background
-- Video title
+- Fetch data for trailer video
+- Update store with movies data
+- Embedded the Youtube video and make it
 - Secondary container
 - Movie List * n
 - cards * n
