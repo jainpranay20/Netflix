@@ -28,6 +28,7 @@
 - Secondary container
 - Movie List * n
 - cards * n
+- GPT Search feature
     
 
 # Features 

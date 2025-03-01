@@ -7,6 +7,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import { addUser, removeUser } from '../utils/userSlice'
 import { useDispatch } from 'react-redux'
 import { LOGO } from '../utils/constants';
+import { toggleGptSearchView } from '../utils/gptSlice';
 
 const Header = () => {
     const dispatch = useDispatch(); // for managing the states
@@ -39,6 +40,10 @@ const Header = () => {
         return () => unsubscribe();
     }, [])
     
+    const handleGptSearchClick = () => {
+        // Toggle GPT Search button
+        dispatch(toggleGptSearchView()); // have not passed anything as we are not passing any actions 
+    }
     return (
         <div className='absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between'>
             <img
@@ -48,6 +53,7 @@ const Header = () => {
             />
             {user && (
                 <div className='flex'>
+                    <button className='py-2 px-4 m-2 bg-purple-800 text-white rounded-lg' onClick={handleGptSearchClick}>GPT Search</button>
                     <div style={{ width: "2rem", paddingTop: "1.4rem" }}>
                         <img
                             alt="usericon"
