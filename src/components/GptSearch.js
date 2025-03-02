@@ -1,7 +1,7 @@
 import React from 'react'
 import GptSearchBar from './GptSearchBar'
 import GptMovieSuggestions from './GptMovieSuggestions'
-import { IMG_BACKGROUND, LOGO } from '../utils/constants'
+import { IMG_BACKGROUND } from '../utils/constants'
 
 const GptSearch = () => {
     return (

@@ -140,3 +140,8 @@ export default UpdateConfig;
 | `configureStore` | Creates a store with all slices. |
 | `useSelector`  | Reads data from Redux store. |
 | `useDispatch`  | Dispatches actions to modify state. |
+
+```A .env file in a React app is used to store environment variables, such as API keys, backend URLs, or other configuration settings that should not be hardcoded in the source code. It helps manage different configurations for development, staging, and production environments.
+
+Add your file to gitignore
+```
