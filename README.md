@@ -29,6 +29,8 @@
 - Movie List * n
 - cards * n
 - GPT Search feature
+- GPT Search bar
+- Multi-language feature in our app
     
 
 # Features 
@@ -74,3 +76,4 @@
 
 - npm i -D @reduxjs/toolkit
 - npm i react-redux
+- npm install openai
