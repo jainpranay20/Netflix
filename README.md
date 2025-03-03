@@ -1,3 +1,10 @@
+# My App Deployment  
+
+**Live URL:** [Netflix App](https://netflix-666dd.web.app/)  
+
+This application is deployed on **Firebase** and is live at the above URL. 
+In the end of the readme i have shared some of the screenshot of my app. 
+
 # Netflix GPT
 
 - Create React App
@@ -77,3 +84,13 @@
 - npm i -D @reduxjs/toolkit
 - npm i react-redux
 - npm install openai
+
+# Below are the screenshot of my app
+
+![Starting Page](firstpage.png)
+
+![Sign in page](signin.png)
+
+![signout page](signout.png)
+
+![search feature](search.png)
